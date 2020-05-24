@@ -22,12 +22,13 @@ executable bingo
   -- other-extensions:
   build-depends:       base >=4.12 && <4.13
                      , rio
-                     , diagrams-lib
-                     , diagrams-cairo
-                     , diagrams-core
-                     , diagrams-contrib
-                     , sampling
+                     , HaTeX
                      , text
+                     , matrix
+                     , process
+                     , directory
+                     , mwc-random
+                     , vector
   -- hs-source-dirs:
   default-language:    Haskell2010
   default-extensions:  FlexibleContexts
